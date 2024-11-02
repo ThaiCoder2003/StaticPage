@@ -886,6 +886,173 @@ textarea#comment.massage-bt::placeholder {
     margin-top: 90px;
 }
 
+/* contact section end */
+
+/* login section start */
+
+.login_box {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.login_title {
+    font-size: 36px;
+    font-weight: 600;
+    color: #2b2b2b;
+    margin-bottom: 30px;
+}
+
+.custom_input {
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #e1e1e1;
+    padding: 10px 15px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.custom_input:focus {
+    border-color: #f01c1c;
+    box-shadow: 0 0 0 0.2rem rgba(255, 64, 64, 0.25);
+    outline: none;
+}
+
+.main_btn {
+    background-color: #f01c1c;
+    color: #ffffff;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.main_btn:hover {
+    background-color: #f01c1c;
+    transform: translateY(-2px);
+}
+
+.register_text {
+    font-size: 16px;
+    color: #666666;
+}
+
+.register_link {
+    color: #f01c1c;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.register_link:hover {
+    color: #f01c1c;
+    text-decoration: underline;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .login_box {
+        padding: 30px 20px;
+    }
+    
+    .login_title {
+        font-size: 28px;
+    }
+}
+
+/* login section end */
+
+/* register section start */
+
+.register_box {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.register_title {
+    font-size: 36px;
+    color: #252525;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.register_form .form-group {
+    margin-bottom: 20px;
+}
+
+.custom_input {
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 40px;
+    background-color: #efefef;
+    font-size: 16px;
+    color: #2e2e2d;
+    font-family: 'Poppins', sans-serif;
+}
+
+.custom_input:focus {
+    outline: none;
+    background-color: #e8e8e8;
+}
+
+.register_btn {
+    background-color: #f01c1c;
+    color: #ffffff;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+.register_btn:hover {
+    background-color: #d81818;
+}
+
+.login_link_container {
+    margin-top: 20px;
+}
+
+.login_link_container p {
+    color: #2e2e2d;
+    font-size: 16px;
+    margin: 0;
+}
+
+.login_link {
+    color: #f01c1c;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.login_link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .register_box {
+        padding: 30px 20px;
+    }
+    
+    .register_title {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+}
+
+/* register section end */
 
 /* contact section end */
 
