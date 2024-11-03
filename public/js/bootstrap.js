@@ -3892,7 +3892,7 @@
 
   (function ($$$1) {
     if (typeof $$$1 === 'undefined') {
-      throw new TypeError('Bootstrap\'s JavaScript requires jQuery. jQuery must be included before Bootstrap\'s JavaScript.');
+      throw new TypeError('Bootstrap\'s js requires jQuery. jQuery must be included before Bootstrap\'s js.');
     }
 
     var version = $$$1.fn.jquery.split(' ')[0].split('.');
@@ -3903,7 +3903,7 @@
     var maxMajor = 4;
 
     if (version[0] < ltMajor && version[1] < minMinor || version[0] === minMajor && version[1] === minMinor && version[2] < minPatch || version[0] >= maxMajor) {
-      throw new Error('Bootstrap\'s JavaScript requires at least jQuery v1.9.1 but less than v4.0.0');
+      throw new Error('Bootstrap\'s js requires at least jQuery v1.9.1 but less than v4.0.0');
     }
   })($);
 

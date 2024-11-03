@@ -1096,6 +1096,11 @@ textarea#comment.update_mail::placeholder {
   padding-right: 15px;
   padding-left: 15px; }
 
+  .col-md-4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.33333%;
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%; }
 .col-lg-12 {
 -webkit-box-flex: 0;
 -ms-flex: 0 0 100%;
@@ -1107,10 +1112,6 @@ max-width: 100%; }
     @media (max-width: 991.98px) {
       .ftco-menu .f-menu-img {
         height: 300px; } }
-
-.ftco-animate {
-    opacity: 0;
-    visibility: hidden; }
 
 .d-md-flex {
     display: -webkit-box !important;
@@ -1153,3 +1154,45 @@ max-width: 100%; }
               display: block;
               width: 100%;
               margin-bottom: 5px; } }
+
+.menu-wrap {
+margin-bottom: 60px; }
+.menu-wrap .menu-img {
+    display: block;
+    height: 270px; }
+.menu-wrap .text h3 {
+    font-size: 18px;
+    text-transform: uppercase; }
+    .menu-wrap .text h3 a {
+    color: #000; }
+.menu-wrap .text .price {
+    font-size: 18px;
+    font-weight: 400; }
+    .menu-wrap .text .price span {
+    color: #000; }
+
+.mb-4,
+.my-4 {
+    margin-bottom: 1.5rem !important; }
+
+.hero-wrap,
+.img,
+.blog-img,
+.user-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+
+.menu-entry {
+    margin-bottom: 30px; }
+    .menu-entry .img {
+        display: block;
+        height: 200px; }
+    .menu-entry .text h3 {
+        font-size: 18px;
+        text-transform: uppercase; }
+        .menu-entry .text h3 a {
+        color: #000; }
+    .menu-entry .text .price span {
+        color: #000;
+        font-size: 18px; }

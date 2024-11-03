@@ -688,7 +688,7 @@ function getParseRegexForToken (token, config) {
     return regexes[token](config._strict, config._locale);
 }
 
-// Code from http://stackoverflow.com/questions/3561493/is-there-a-regexp-escape-function-in-javascript
+// Code from http://stackoverflow.com/questions/3561493/is-there-a-regexp-escape-function-in-js
 function unescapeFormat(s) {
     return regexEscape(s.replace('\\', '').replace(/\\(\[)|\\(\])|\[([^\]\[]*)\]|\\(.)/g, function (matched, p1, p2, p3, p4) {
         return p1 || p2 || p3 || p4;

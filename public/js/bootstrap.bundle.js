@@ -3665,8 +3665,8 @@
    * @property {Boolean} data.flipped True if popper has been flipped by flip modifier
    * @property {Boolean} data.hide True if the reference element is out of boundaries, useful to know when to hide the popper.
    * @property {HTMLElement} data.arrowElement Node used as arrow by arrow modifier
-   * @property {Object} data.styles Any CSS property defined here will be applied to the popper, it expects the JavaScript nomenclature (eg. `marginBottom`)
-   * @property {Object} data.arrowStyles Any CSS property defined here will be applied to the popper arrow, it expects the JavaScript nomenclature (eg. `marginBottom`)
+   * @property {Object} data.styles Any CSS property defined here will be applied to the popper, it expects the js nomenclature (eg. `marginBottom`)
+   * @property {Object} data.arrowStyles Any CSS property defined here will be applied to the popper arrow, it expects the js nomenclature (eg. `marginBottom`)
    * @property {Object} data.boundaries Offsets of the popper boundaries
    * @property {Object} data.offsets The measurements of popper, reference and arrow elements.
    * @property {Object} data.offsets.popper `top`, `left`, `width`, `height` values
@@ -6400,7 +6400,7 @@
 
   (function ($$$1) {
     if (typeof $$$1 === 'undefined') {
-      throw new TypeError('Bootstrap\'s JavaScript requires jQuery. jQuery must be included before Bootstrap\'s JavaScript.');
+      throw new TypeError('Bootstrap\'s js requires jQuery. jQuery must be included before Bootstrap\'s js.');
     }
 
     var version = $$$1.fn.jquery.split(' ')[0].split('.');
@@ -6411,7 +6411,7 @@
     var maxMajor = 4;
 
     if (version[0] < ltMajor && version[1] < minMinor || version[0] === minMajor && version[1] === minMinor && version[2] < minPatch || version[0] >= maxMajor) {
-      throw new Error('Bootstrap\'s JavaScript requires at least jQuery v1.9.1 but less than v4.0.0');
+      throw new Error('Bootstrap\'s js requires at least jQuery v1.9.1 but less than v4.0.0');
     }
   })($);
 
